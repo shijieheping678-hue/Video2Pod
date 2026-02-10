@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Environment & Secrets
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temp & Output
+temp/
+output/
+tasks/
+
+# Media test files
+*.mp3
+*.mp4
+*.m4a
+*.wav
+*.flac
+*.mkv
+*.mov
+
+# Node
+remotion-video/node_modules/
+remotion-video/out_*.mp4
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/
