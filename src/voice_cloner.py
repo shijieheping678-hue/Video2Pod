@@ -33,8 +33,8 @@ class VoiceCloner:
         Reads ``VOLC_APPID`` and ``VOLC_ACCESS_TOKEN`` from the environment,
         falling back to hardcoded defaults if not set.
         """
-        self.appid = os.getenv("VOLC_APPID","6001785213")
-        self.token = os.getenv("VOLC_ACCESS_TOKEN","9-lULLbLphFheRwdMxpzbrCA5W3VkwzW")
+        self.appid = os.getenv("VOLC_APPID")
+        self.token = os.getenv("VOLC_ACCESS_TOKEN")
         self.host = "https://openspeech.bytedance.com"
 
         # 默认配置
