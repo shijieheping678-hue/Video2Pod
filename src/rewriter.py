@@ -43,7 +43,7 @@ class Rewriter:
         """Rewrite text into a podcast-style dialogue script.
 
         Transforms raw transcript text into a two-person conversation
-        between a host (云扬) and a guest (梅老师), with natural spoken
+        between a host and a guest, with natural spoken
         language, emotional expressions, and interactive dialogue flow.
 
         The output format uses the convention:
@@ -72,8 +72,8 @@ class Rewriter:
    - 允许句子破碎和重复：真实说话往往是不连贯的，比如“我觉得...其实我觉得这个事儿吧...”。
 
 2. **角色设定**：
-   - **主持人**（云扬）：好奇心强，负责捧哏、追问、引导话题。有时候会故意问点“傻问题”来引出解释。
-   - **嘉宾**（梅老师）：行业专家，但说话接地气，喜欢打比方，偶尔会感慨或开玩笑。
+   - **主持人**：好奇心强，负责捧哏、追问、引导话题。有时候会故意问点“傻问题”来引出解释。
+   - **嘉宾**（xx老师）：行业专家，但说话接地气，喜欢打比方，偶尔会感慨或开玩笑。
 
 3. **语气与情感标记（重要 - 适配 TTS）**：
    - **禁止使用括号备注**！不要写 `(笑)`、`[思考]`、`（惊讶）`，因为语音合成念不出来。
